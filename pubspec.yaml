@@ -1,0 +1,21 @@
+name: coocktimer
+description: A Flutter project with the aim of creating and managing recipes, and may create also alarms to be able to control the cooking time of them.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter_modular: ^1.2.5+1
+  flutter:
+    sdk: flutter
+
+
+dev_dependencies:
+  mockito: ^4.1.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
