@@ -10,7 +10,7 @@ The idea of the App:
 
 *Create recipes and manage their time on fire directly from the cell phone.*
 
-### Why
+## Why
 
 We fell in love with the Framework and decided to invest a part of our free time in order to be able to get to know it better with solutions for things (problems) of our everyday.
 
@@ -44,7 +44,7 @@ Follow up on [Roadmap](#roadmap) to see what is already done and what is in prog
 
 ![DER](https://i.ibb.co/jhZ5hVr/Cook-Timer-DER.png)
 
-### Roadmap
+## Roadmap
 
 <!-- Emojis-->
 
