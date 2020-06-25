@@ -30,9 +30,9 @@ flutter:
         - asset: lib/assets/fonts/Sriracha-Regular.ttf
 
 vars: 
-    clean: flutter clean
-    get: flutter pub get
-    runner: flutter pub run build_runner
+  clean: flutter clean
+  get: flutter pub get
+  runner: flutter pub run build_runner
 scripts: 
-    mobx_build: $clean & $get & $runner build --delete-conflicting-outputs
-    mobx_watch: $clean & $get & $runner watch --delete-conflicting-outputs
+  mobx_build: $clean & $get & $runner build --delete-conflicting-outputs
+  mobx_watch: $clean & $get & $runner watch --delete-conflicting-outputs
