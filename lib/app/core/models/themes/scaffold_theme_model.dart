@@ -5,7 +5,7 @@ class ScaffoldThemeModel {
     // AppBar
     appBarTheme: AppBarTheme(
       actionsIconTheme: IconThemeData(color: Colors.white, size: 24),
-      centerTitle: false,
+      // centerTitle: false,
       iconTheme: IconThemeData(color: Colors.white, size: 24),
       textTheme: TextTheme(
         // old title
@@ -45,7 +45,7 @@ class ScaffoldThemeModel {
     // AppBar
     appBarTheme: AppBarTheme(
       actionsIconTheme: IconThemeData(color: const Color(0xFF888888), size: 24),
-      centerTitle: false,
+      // centerTitle: false,
       iconTheme: IconThemeData(color: const Color(0xFF888888), size: 24),
       textTheme: TextTheme(
         // old title

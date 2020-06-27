@@ -1,3 +1,4 @@
+import 'package:coocktimer/app/auth/auth_module.dart';
 import 'package:coocktimer/app/core/stores/global_theme_store.dart';
 
 import 'app_controller.dart';
@@ -15,7 +16,7 @@ class AppModule extends MainModule {
 
   @override
   List<Router> get routers => [
-        Router(Modular.initialRoute, module: HomeModule()),
+        Router(Modular.initialRoute, module: AuthModule()),
       ];
 
   @override
