@@ -35,11 +35,11 @@ mixin _$GlobalThemeStore on GlobalThemeStoreBase, Store {
       ActionController(name: 'GlobalThemeStoreBase');
 
   @override
-  void changeTheme() {
+  void changeTheme({@required bool value}) {
     final _$actionInfo = _$GlobalThemeStoreBaseActionController.startAction(
         name: 'GlobalThemeStoreBase.changeTheme');
     try {
-      return super.changeTheme();
+      return super.changeTheme(value: value);
     } finally {
       _$GlobalThemeStoreBaseActionController.endAction(_$actionInfo);
     }

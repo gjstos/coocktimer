@@ -9,8 +9,8 @@ import 'package:coocktimer/app/modules/home/home_module.dart';
 class AppModule extends MainModule {
   @override
   List<Bind> get binds => [
-        Bind((i) => AppController()),
-        Bind((i) => GlobalThemeStore(), singleton: true),
+        Bind<AppController>((i) => AppController()),
+        Bind<GlobalThemeStore>((i) => GlobalThemeStore()),
       ];
 
   @override

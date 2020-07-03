@@ -16,6 +16,7 @@ dependencies:
 
 
 dev_dependencies:
+  change_app_package_name: ^0.1.2
   mockito: ^4.1.1
   mobx_codegen: ^1.1.0+1
   build_runner: ^1.10.0
@@ -28,7 +29,10 @@ flutter:
     - family: Sriracha
       fonts: 
         - asset: lib/assets/fonts/Sriracha-Regular.ttf
-
+  
+  assets:
+    - lib/assets/logo/coocktimer.png
+    
 vars: 
   clean: flutter clean
   get: flutter pub get

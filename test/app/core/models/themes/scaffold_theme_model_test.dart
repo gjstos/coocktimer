@@ -10,12 +10,12 @@ void main() {
   });
 
   test('Teste ScaffoldThemeModel se é a versão light', () {
-    expect(
-        scaffoldThemeMock.light.scaffoldBackgroundColor, equals(Colors.white));
+    expect(scaffoldThemeMock.theme['light'].scaffoldBackgroundColor,
+        equals(Colors.white));
   });
 
   test('Teste ScaffoldThemeModel se é a versão dark', () {
-    expect(scaffoldThemeMock.dark.scaffoldBackgroundColor,
+    expect(scaffoldThemeMock.theme['dark'].scaffoldBackgroundColor,
         equals(const Color(0xFF121212)));
   });
 }

@@ -11,21 +11,31 @@ void main() {
 
   group('Teste se é a versão light:', () {
     test('ColorScheme', () {
-      expect(colorSchemeMock.light.background, equals(Colors.white));
+      expect(colorSchemeMock.colorScheme['light'].background,
+          equals(Colors.white));
     });
     test('LinearGradient', () {
-      expect(colorSchemeMock.lightLinearGradient.colors,
-          equals([const Color(0xFFCC2B5F), const Color(0xFF753A88)]));
+      expect(
+          colorSchemeMock.linearGradient['light'],
+          equals([
+            const Color(0xFFA9076B),
+            const Color(0xFF61045F),
+          ]));
     });
   });
 
   group('Teste se é a versão dark:', () {
     test('ColorScheme', () {
-      expect(colorSchemeMock.dark.background, equals(const Color(0xFF121212)));
+      expect(colorSchemeMock.colorScheme['dark'].background,
+          equals(const Color(0xFF121212)));
     });
     test('LinearGradient', () {
-      expect(colorSchemeMock.darkLinearGradient.colors,
-          equals([const Color(0xFF660730), const Color(0xFF3B1D44)]));
+      expect(
+          colorSchemeMock.linearGradient['dark'],
+          equals([
+            const Color(0xFF550436),
+            const Color(0xFF1E0F22),
+          ]));
     });
   });
 }
